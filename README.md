@@ -185,7 +185,7 @@ Runtime save files are excluded from the Git repository through `.gitignore`.
 The project was developed with:
 
 - C++
-- Visual Studio 2022
+- Visual Studio 2026
 - C++23
 
 To build and run the project:
