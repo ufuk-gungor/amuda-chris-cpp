@@ -78,7 +78,7 @@ void StoryManager::printStoryAfterPickup(Item* item) const {
 void StoryManager::printStoryAfterEnemyKilled(Enemy* enemy) const {
     if (enemy->getName() == "Mercenary") {
         std::println("The mercenary drops to the ground, his radio crackling beside him.");
-        std::println("A broken voice comes through the static: 'Report... did you find the artifact’s trail?'");
+        std::println("A broken voice comes through the static: 'Report... did you find the trail of artifact?'");
         std::println("Chris: 'The artifact's trail? Great. So this goes deeper than I thought.'");
     }
     else if (enemy->getName() == "Talbot") {
