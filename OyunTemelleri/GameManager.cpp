@@ -110,6 +110,8 @@ void GameManager::updateObjectiveAfterMove(Location* room) {
     }
     else if (currentObjectiveStage == ObjectiveStage::EscapeRuins && room->getName() == "Hidden Cave") {
         story_manager.printEndingStory();
+        std::println("\nPress Enter to exit...");
+        std::cin.get();
         gameContinue = false;
     }
 }
